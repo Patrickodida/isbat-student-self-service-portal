@@ -147,3 +147,33 @@ body {
 .metric.alert .value {
     color: #A6001F;
 }
+
+/* Tables */
+.table-card {
+    background: #FFFFFF;
+    border: 1px solid #DDE1E8;
+    border-radius: 10px;
+    padding: 5px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px 14px;
+    border: 1px solid #DDE1E8;
+    text-align: left;
+}
+
+thead th {
+    background: #1A1A2E;
+    color: #FFFFFF;
+}
+
+.courses-table tbody tr:nth-child(even) {
+    background: #F8F9FC;
+}

@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISBAT University | Student Dashboard</title>
     <link rel="stylesheet" href="portal.css">
+
+    <!-- Internal CSS - Quick links grid only -->
+     <style>
+        .quick-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .quick-card {
+            background: #FFFFFF;
+            border: 1px solid #DDE1E8;
+            border-top: 5px solid #1A1A2E;
+            border-radius: 10px;
+            padding:  35px 20px;
+            text-align: center;
+        }
+
+        .quick-card h3 {
+            color: #1A1A2E;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .quick-card a {
+            display: inline-block;
+            color: #A6001F;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .quick-card a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .quick-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+     </style>
 </head>
 <body>
     <aside class="sidebar">

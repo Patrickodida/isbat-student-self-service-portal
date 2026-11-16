@@ -75,7 +75,11 @@
     </main>
 
     <script>
-
+        // Shows the real date. The text in the HTML is the fallback.
+        document.getElementById("today").textContent =
+            new Date().toLocaleDateString("en-GB", {
+                weekday: "long", day: "numeric", month: "long", year: "numeric"
+            });
     </script>
 </body>
 </html>

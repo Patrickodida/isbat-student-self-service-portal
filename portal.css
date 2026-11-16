@@ -177,3 +177,23 @@ thead th {
 .courses-table tbody tr:nth-child(even) {
     background: #F8F9FC;
 }
+
+/* Timetable layout (colours are internal CSS in courses.html) */
+.timetable {
+    table-layout: fixed;
+    min-width: 700px;
+}
+
+.timetable th,
+.timetable td {
+    text-align: center;
+    height: 52px;
+    font-size: 0.9rem;
+}
+
+.timetable tbody th {
+    background: #F4F5F9;
+    color: #1A1A2E;
+    width: 120px;
+    font-size: 0.85rem;
+}

@@ -12,3 +12,66 @@ body {
     color: #1F2933;
     background: #F4F5F9;
 }
+
+/* Side bar, Student details and nav links */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background: #1A1A2E;
+    color: #FFFFFF;
+    padding: 20px 0;
+    overflow-y: auto;
+}
+
+.sidebar .logo {
+    background: #FFFFFF;
+    margin: 0 15px 15px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.sidebar .logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.student {
+    padding: 0 15px 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.student .name {
+    font-weight: bold;
+}
+
+.student .reg {
+    font-size: 0.8rem;
+    color: #B8BCD0;
+}
+
+.sidebar nav ul {
+    list-style: none;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-left: 4px solid transparent;
+}
+
+.sidebar nav a:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar nav a.active {
+    background: rgba(255, 255, 255, 0.12);
+    border-left-color: #C9A227;
+    font-weight: bold;
+}

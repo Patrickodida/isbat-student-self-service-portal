@@ -108,3 +108,42 @@ body {
     font-size: 0.85rem;
     font-weight: bold;
 }
+
+/* Section headings */
+.main h2 {
+    color: #1A1A2E;
+    font-size: 1.3rem;
+    margin: 30px 0 15px;
+}
+
+/* Metric cards */
+.metrics {
+    display: flex;
+    gap: 20px;
+}
+
+.metric {
+    flex: 1;
+    background: #FFFFFF;
+    border: 1px solid #DDE1E8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.metric .label {
+    display: block;
+    color: #5A6672;
+    font-size: 0.9rem;
+}
+
+.metric .value {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1A1A2E;
+    line-height: 1.2;
+}
+
+.metric.alert .value {
+    color: #A6001F;
+}

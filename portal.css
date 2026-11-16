@@ -75,3 +75,27 @@ body {
     border-left-color: #C9A227;
     font-weight: bold;
 }
+
+.main {
+    margin-left: 200px;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+.page-top {
+    margin-bottom: 25px;
+}
+
+.page-top h1 {
+    color: #1A1A2E;
+    font-size: 1.8rem;
+}
+
+.today {
+    color: #5A6672;
+}
+
+.status-line {
+    margin-top: 6px;
+    font-weight: bold;
+}
